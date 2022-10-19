@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionales</title>
+</head>
+<body>
+
+    
+    <script>
+        //condicionales
+        /* la sentencia "if" 
+            validar o comprobar algo
+            para tomar alguna decision
+
+            *si la condicion es true ingresa al if
+            if(condicion){
+            }
+        */
+            /*
+        var edad = prompt("Ingresa tu edad",0);
+
+        if(edad >= 18){
+            console.log("la persona es mayor de edad")
+        } else {
+            console.log("la persona es menor de edad")
+        }
+        
+        **parseInt = debe ser integer
+
+        var numeroAValidar = parseInt(prompt("ingresa un nuevo numero",0));
+    
+        if(numeroAValidar == 0){
+
+        }else if(numeroAValidar > 0){
+
+        }else{
+            
+        }
+
+        */
+        
+        var persona = []
+
+        var edad = parseInt(prompt("ingresa tu edad"));
+                persona.push(edad)
+        
+        if(edad < 18 || edad == NaN){
+            alert("Es un sitio para +18, no puedes registrarte")
+        }else if(isNaN(edad)){
+            alert("-ERROR- esto no es un numero")
+        } else {
+
+        var nombre = (prompt("ingresa tu nombre"));
+        persona.push(nombre)
+
+        var apellido = (prompt("ingresa tu apellido"));
+        persona.push(apellido)
+
+        var direccion = (prompt("ingresa tu direccion"));
+        persona.push(direccion)
+
+        var correo = (prompt("ingresa tu correo"));
+        persona.push(correo)
+
+        var telefono = parseInt(prompt("ingresa tu numero de telefono"));
+        persona.push(telefono)
+
+            alert("Te registraste exitosamente")
+            document.write("<h1>Datos de la persona inscrita </h1>")
+            document.write("<ol>")
+            document.write("<li>El Nombre es: " + persona[1] + " </li>")
+            document.write("<li>El Apellido es: " + persona[2] + " </li>")
+            document.write("<li>La direccion es: " + persona[3] + " </li>")
+            document.write("<li>El corre es: " + persona[4] + " </li>")
+            document.write("<li>El telefono es: " + persona[5] + " </li>")
+            document.write("</ol>")
+        }
+        
+        
+        
+        
+        
+    </script>
+</body>
+</html>
