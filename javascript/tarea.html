@@ -33,7 +33,6 @@ for ( i = 0 ; i <= 1000 ; i++){
 console.log(numPar)
 console.log("***********************************")
 
-
 //3. Suma impares hasta 5000: Escribe un programa que devuelva 
 //la suma de todos los números impares entre 1 y 5000 (ej: 1+3+5+...+4997+4999).
 //(i % 2 == 1) impares
@@ -66,8 +65,8 @@ console.log("***********************************")
 console.log("dado el array [1,5,2,8] encuentra el numero mayor")
 var array = [1,5,2,8]
 var numMayor = 0
-for(i = 0 ; i <= array.length ; i++){
-    if (array[i] > numMayor ){
+for(let i = 0 ; i < array.length ; i++){ //array.length = 4 
+    if (array[i] > numMayor ){ // array[3] = 8
         numMayor = array[i]
     }
 }

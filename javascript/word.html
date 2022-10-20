@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+/*
+    - Escribir un programa que muestre un prompt donde el 
+    usuario ingresa un número, luego muestra otro prompt 
+    pidiendo otro número, finalmente el programa muestra 
+    una alerta con el resultado de la suma.
+
+    var num1 = parseInt(prompt("ingresa el primer numero "));
+    var num2 = parseInt(prompt("ingresa el segundo numero "));
+    var sum = num1 + num2 
+    alert(sum);
+*/
+/*  - Crear un programa donde el usuario ingrese en un prompt 
+    la temperatura en Celcius y el programa muestre en una alerta 
+    la temperatura en Fahrenheit.
+
+    var gradosC = parseInt(prompt("ingrese temperatura en °C "))
+    var gradosF =  (gradosC * (9/5)) + 32;
+    alert(gradosF)
+*/
+/*
+    - Pedir un número a un usuario a través de un prompt y luego 
+    dividirlo por 10, ejemplo: 5 / 10  igual 0.5
+
+var num = parseInt(prompt("ingresa un numero"));
+num = num / 10
+alert(num)
+*/
+/*
+- Crear un programa que determine si un número introducido en un Prompt
+es divisible por 5 o no, mostrar el resultado con console.log
+
+var num = parseInt(prompt("ingresa un numero"));
+if(num % 5 == 0){
+    alert("ES DIVISIBLE POR 5")
+} else{
+    alert("NO ES DIVISIBLE")
+}
+
+
+// Obtener edad
+var edad = 15
+if(edad < 13) {
+		console.log("Es niño");
+	}else if(edad > 18 ){
+	    console.log("Es adulto");
+	} else{
+    console.log("Es adolecente");
+	}
+*/
+
+    // "hola"
+    var colores = ["azul", "amarillo", "rojo", "verde", "café", "rosa"] 
+    var color = prompt("introduce un color")
+    var match = false
+    for ( i = 0 ; i < colores.length ; i ++){
+        if(color == colores[i]){
+            match = true;
+    }
+}
+        if(match == true){
+            alert("SI ESTA EL COLOR")
+        } else if(match == false){
+            alert("NO ESTA EL COLOR")
+        }
+    
+    
+
+    </script>
+</body>
+</html>
