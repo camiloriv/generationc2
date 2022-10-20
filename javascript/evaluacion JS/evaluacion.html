@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+        
+        //LISTO funcion (dia,valor) para retornar total, con o sin descuento
+        //LISTO function que calcule si lleva mas productos y 1 mayor a 10,000
+        /*
+        funcion verificadora de dato negativo
+        si no hay, retornar mensaje exitoso
+        si hay, retornar mensaje error, numero e indicie
+
+        */
+        var dia = parseInt(prompt("ingresa el dia de compra"))
+        var cant = parseInt(prompt("ingresa la cantidad de productos"))
+        var valores = []
+
+        //ingreso datos al array de los valores de los productos
+        //segun la cantidad de productos comprados
+        for( i = 0 ; i < cant ; i++){
+            var val = parseInt(prompt("ingresa un numero"))
+            valores.push(val)
+            if(val < 0){
+                datoNegativo()
+            }
+        }
+        
+        function compra(fecha,precios){ // miercoles. [1300,130,30]
+            var total = 0
+            var mayor = false
+            for (i = 0 ; i < precios.length ; i++){
+                total = total + precios[i]
+                if(precios[i] > 10000){
+                    
+                    mayor = true
+                }
+            }
+
+            if(fecha == "martes" || fecha == "jueves"){
+                total = total - ((total * 20)/100)
+            } else if(precios.length > 3 && mayor == true){
+                console.log("entre")
+                total = total - ((total * 5)/100)
+            }
+            return total
+        }
+
+        var mostrarCompra = compra(dia,valores)
+        console.log(mostrarCompra)
+
+
+    </script>
+
+</body>
+</html>

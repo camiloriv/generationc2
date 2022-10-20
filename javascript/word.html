@@ -60,7 +60,7 @@ if(edad < 13) {
 	} else{
     console.log("Es adolecente");
 	}
-*/
+
 
     // "hola"
     var colores = ["azul", "amarillo", "rojo", "verde", "café", "rosa"] 
@@ -76,8 +76,21 @@ if(edad < 13) {
         } else if(match == false){
             alert("NO ESTA EL COLOR")
         }
+ */
     
-    
+        function ejemplo(dato){
+            return dato + 1
+        }
+        var datoRetornado = ejemplo(4)
+        console.log(datoRetornado)
+        /* 
+        ejemplo(4) - entra a la funcion con el dato 4
+        en el retorno, se le suma +1 y retorna 5
+        se "sobreescribe" el llamado 'ejemplo(4)' por lo retornado, osea 5
+        este 5 se le asigna a la variable 'datoRetornado'
+        console.log te muestra esa variable osea 5
+        */
+
 
     </script>
 </body>
