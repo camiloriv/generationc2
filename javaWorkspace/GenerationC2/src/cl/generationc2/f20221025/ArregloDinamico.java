@@ -12,15 +12,14 @@ public class ArregloDinamico {
 		
 		ArrayList<String> grupo7 = new ArrayList<String>();
 		//2.-Agregar valores al arreglo
-		grupo7.add("Atenas");
-		grupo7.add("Luisa");
 		grupo7.add("Luis");
 		grupo7.add("Jonathan");
-		grupo7.add("Camilo");
 		
 		//mostrar array
 		System.out.println(grupo7);
 		//mostrar tamaño del array
+		
+		/*
 		System.out.println(grupo7.size());
 		//mostrar 1 elemento por su posicion
 		System.out.println(grupo7.get(grupo7.size()-1));
@@ -39,7 +38,7 @@ public class ArregloDinamico {
 			System.out.println("integrante: " + integrante);
 			System.out.println(integrante);
 		}
-		
+		*/
 	}
 
 }
