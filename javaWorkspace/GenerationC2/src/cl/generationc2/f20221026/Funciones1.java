@@ -13,7 +13,29 @@ public class Funciones1 {
 		String[] vocales = {"a","e","i","o","u"};
 		metodo4(vocales);
 		cantidad();
+		sumarDos();
+		System.out.println(num);
+		sumarTres(3);
+		sumarTres("tres");
 		}
+		
+		static int num = 5;
+	
+	public static void sumarDos() {
+		num = num + 2;
+	}
+	
+
+	public static void sumarTres(Integer numero) {
+		Integer nuevo_numero = numero + 3;
+		System.out.println(nuevo_numero);
+	}
+	
+	public static void sumarTres(String numero) {
+		String nuevo_numero = numero + 3;
+		System.out.println(nuevo_numero);
+	}
+	
 		//void <-> funcion no retorna ningun valor
 	public static void metodo1(){
 			System.out.println("hola world");

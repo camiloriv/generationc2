@@ -1,4 +1,4 @@
-package cl.generation.f202001024;
+package cl.generationc2.f202001024;
 
 import java.util.Arrays;
 

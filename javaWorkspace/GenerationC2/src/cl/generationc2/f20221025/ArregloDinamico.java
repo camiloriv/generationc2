@@ -11,22 +11,27 @@ public class ArregloDinamico {
 		//ArrayList<TIPODATO> nombre_arreglo = new ArrayList<TIPODATO>();
 		
 		ArrayList<String> grupo7 = new ArrayList<String>();
+		ArrayList<String> autos = new ArrayList<String>();
 		//2.-Agregar valores al arreglo
 		grupo7.add("Luis");
 		grupo7.add("Jonathan");
+		autos.add("chevrolet");
+		autos.add("kia");
+		autos.add("mazda");
 		
 		//mostrar array
 		System.out.println(grupo7);
 		//mostrar tamaño del array
 		
-		/*
+		
 		System.out.println(grupo7.size());
 		//mostrar 1 elemento por su posicion
-		System.out.println(grupo7.get(grupo7.size()-1));
+		//System.out.println(grupo7.get(grupo7.size()-1));
 		//eliminar un elemento por su posicion
-		grupo7.remove(2);
+		//grupo7.remove(2);
 		System.out.println(grupo7);
 		//6.- recorrer el ArrayList
+		
 		for(int i = 0; i < grupo7.size() ; i++){
 			System.out.println("integrante: "+grupo7.get(i));
 		}
@@ -34,11 +39,17 @@ public class ArregloDinamico {
 		System.out.println("*******");
 		
 		//for de objeto o iterador
+		
 		for( String integrante: grupo7){
 			System.out.println("integrante: " + integrante);
 			System.out.println(integrante);
 		}
-		*/
+		
+		for( String marca: autos){
+			System.out.println("el array autos tiene autos de modelo: " + marca);
+			System.out.println(marca);
+		}
+		
 	}
 
 }

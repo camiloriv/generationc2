@@ -11,7 +11,7 @@ public class Main {
 		long numero2 = 21324242234l;
 		float decimal = 2.5f;
 		float decimal3 = (float) 2.5;
-		double decima43= 2.2d;
+		double decima4= 2.2d;
 		
 		char caracter = 'f'; // siempre con comillas simples
 		boolean respuesta= true; // true o false
