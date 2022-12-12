@@ -1,0 +1,34 @@
+@use 'variables';
+
+.nav {
+
+    &--sidebar {
+        background-color: variables.$color1;
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        display: flex;
+        padding: 20px;
+        font-size: variables.$f-size-sm;
+    }
+
+    &__avatar {
+        height: 120px;
+        width: 120px;
+        border-radius: 100%;
+        justify-content: center;
+        margin: 40px;
+    }
+
+    ul.nav__items {
+        height: fit-content;
+        display: block;
+        justify-content: center;
+        list-style: none;
+
+        .nav__item {
+            margin-bottom: 40px;
+        }
+    }
+
+}
