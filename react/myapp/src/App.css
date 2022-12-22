@@ -21,11 +21,40 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(237, 12, 12);
 }
 
 .App-link {
   color: #61dafb;
+}
+.accirdion{
+  width: 100%
+}
+.acordeon{
+  width: 700px;
+  margin: 20px;
+  display:flex;
+
+}
+.middle{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 350px;
+}
+.content{
+  background-color: darkslategrey;
+  padding: 20px;
+  display:inline-block;
+  width: 600px;
+  height: 330px;
+  padding: 10px;
+}
+
+.imagen{
+  height: 300px;
+  width: 500px;
+  margin: auto;
 }
 
 @keyframes App-logo-spin {

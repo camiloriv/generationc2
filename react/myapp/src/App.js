@@ -1,10 +1,15 @@
-import logo from './espiral.webp';
+import Header from './components/header'
+import Auto from './components/auto'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-    <h1>Hasta mañana</h1>
+    <div>
+      <Header nombre="camilo" apellido="rivera"/>
+      <Auto />
+    </div>
+
     </div>
   );
 }
